@@ -18,10 +18,10 @@ public class MainTemplateConfig {
     /**
      * 输出信息
      */
-    private String outputText = "输出结果";
+    private String outputText = " sum = ";
 
     /**
-     * 是否循环
+     * 是否生成循环
      */
     private boolean loop;
 }
