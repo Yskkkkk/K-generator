@@ -1,14 +1,12 @@
-package com.ysk.model;
+package com.ysk.maker.model;
 
 import lombok.Data;
 
 /**
- * @author 袁赛阔
- * @date 2023-11-10 11:21
  * 动态模板配置
  */
 @Data
-public class MainTemplateConfig {
+public class DataModel {
 
     /**
      * 作者（字符串，填充值）
