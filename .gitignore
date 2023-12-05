@@ -6,6 +6,7 @@
 
 .idea
 target
+generated
 k-generator.iml
 k-generator-basic.iml
 k-generator-demo-projects.iml

@@ -6,8 +6,8 @@
   "author": "ysk",
   "createTime": "2023-12-04",
   "fileConfig": {
-    "inputRootPath": "C:/code/yuzi-generator/yuzi-generator-demo-projects/acm-template-pro",
-    "outputRootPath": "generator",
+    "inputRootPath": "F:/CodeStudy/JavaProjectStudy/k-generator/k-generator-demo-projects/acm-template-pro",
+    "outputRootPath": "generated",
     "type": "dir",
     "files": [
       {
