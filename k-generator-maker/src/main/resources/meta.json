@@ -6,8 +6,9 @@
   "author": "ysk",
   "createTime": "2023-12-04",
   "fileConfig": {
-    "inputRootPath": "F:/CodeStudy/JavaProjectStudy/k-generator/k-generator-demo-projects/acm-template-pro",
+    "inputRootPath": ".source/acm-template-pro",
     "outputRootPath": "generated",
+    "sourceRootPath": "F:/CodeStudy/JavaProjectStudy/k-generator/k-generator-demo-projects/acm-template-pro",
     "type": "dir",
     "files": [
       {
