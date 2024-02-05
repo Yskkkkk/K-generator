@@ -1,7 +1,6 @@
 package com.ysk.maker.generator.file;
 
 import cn.hutool.core.io.FileUtil;
-import com.ysk.maker.model.DataModel;
 import freemarker.template.Configuration;
 import freemarker.template.Template;
 import freemarker.template.TemplateException;
@@ -40,11 +39,6 @@ public class DynamicFileGenerator {
         String templateName = new File(inputPath).getName();
         Template template = configuration.getTemplate(templateName,"UTF-8");
 
-        // 创建数据模型
-        DataModel dataModel = new DataModel();
-        dataModel.setAuthor("yupi");
-        dataModel.setLoop(false);
-        dataModel.setOutputText("求和结果：");
 
         // 文件不存在则创建文件和父目录
         if(!FileUtil.exist(outputPath)){
